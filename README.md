@@ -8,14 +8,14 @@ A weather forecast app featuring a minimalistic UI. Metrio keeps you informed ab
 
 ## Setup
 
-1. You'll need an API Key from [weatherapi](https://www.weatherapi.com/). Just make an account, and copy the key.
+1. You'll need an API key from [weatherapi](https://www.weatherapi.com/). After creating an account, you'll be granted access to your API key. **For security reasons, please never share that key.**
 2. Create a .env file in the project's root directory, and paste your API Key, as follows:
 
 ```
 API_KEY=<your key here>
 ```
 
-3. As we are using Typescript, we also need a env.d.ts file. Create one in project's the root directory and paste the following content:
+3. As we are using Typescript, we also need a env.d.ts file. Create one in the project's the root directory and paste the following content:
 
 ```typescript
 declare module '@env' {
